@@ -9,7 +9,7 @@ routes.use(express.json());
 routes.use(cors());
 
 routes.get("/", (req, res) => {
-  res.status(200).send("ok");
+  res.status(200).send("whyy");
 });
 
 routes.post("/register", createNewUser);
